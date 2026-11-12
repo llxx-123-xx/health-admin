@@ -1,0 +1,25 @@
+# ===== 后端忽略 =====
+backend/target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# ===== 前端忽略 =====
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+*.local
+
+# ===== IDE 忽略 =====
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# ===== 系统文件忽略 =====
+.DS_Store
+Thumbs.db
+
+# ===== 日志忽略 =====
+logs/
+*.log
